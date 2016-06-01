@@ -1,0 +1,34 @@
+{
+  "name": "image-resizer",
+  "version": "0.1.0",
+  "description": "Create multiple sized variants of images using sharp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib"
+  },
+  "keywords": [
+    "image",
+    "resize",
+    "bulk",
+    "process",
+    "sharp",
+    "cli"
+  ],
+  "author": "Joshua Kleckner <lokua@lokua.net>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-class-properties": "^6.9.1",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "commander": "^2.9.0",
+    "lokua.net.node-logger": "^0.11.2",
+    "mz": "^2.4.0",
+    "sharp": "^0.15.0",
+    "slug": "^0.9.1"
+  }
+}
