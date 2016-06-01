@@ -1,10 +1,14 @@
 {
-  "name": "image-resizer",
+  "name": "process-images",
   "version": "0.1.0",
   "description": "Create multiple sized variants of images using sharp",
   "main": "index.js",
+  "bin": {
+    "process-images": "lib/index.js"
+  },
   "scripts": {
-    "start": "node lib"
+    "start": "node lib",
+    "test": "node test"
   },
   "keywords": [
     "image",
@@ -29,6 +33,10 @@
     "lokua.net.node-logger": "^0.11.2",
     "mz": "^2.4.0",
     "sharp": "^0.15.0",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "unicode": "^0.6.1"
+  },
+  "devDependencies": {
+    "rimraf-promise": "^2.0.0"
   }
 }
