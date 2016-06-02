@@ -80,7 +80,8 @@ processImages({
 ### CLI usage example:
 
 The CLI works the same as the programmatic API, except that results
-are run through `JSON.stringify` and printed to stdout.
+are run through `JSON.stringify` and printed to stdout. Note that values
+passed to the `--sizes, -s` options cannot contain spaces.
 
 ```sh
 resize-images -i /absolute/input/path -o /absolute/output/path -s 200,400,600,800
