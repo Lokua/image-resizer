@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node lib",
-    "test": "node test"
+    "test": "node test",
+    "test:ava": "./node_modules/.bin/ava"
   },
   "keywords": [
     "image",
