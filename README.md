@@ -2,6 +2,7 @@
 
 > Create multiple sized variants of images for use with the HTML5 `srcset`
   attribute.
+[![Build Status](https://travis-ci.org/Lokua/process-images.svg?branch=master)](https://travis-ci.org/Lokua/process-images)
 
 ## Install
 
