@@ -2,14 +2,13 @@
   "name": "process-images",
   "version": "0.2.0",
   "description": "Create multiple sized variants of images using sharp",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
     "process-images": "lib/index.js"
   },
   "scripts": {
     "start": "node lib",
-    "test": "node test",
-    "test:ava": "./node_modules/.bin/ava"
+    "test": "node test"
   },
   "keywords": [
     "image",
@@ -19,6 +18,10 @@
     "sharp",
     "cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokua/process-images.git"
+  },
   "author": "Joshua Kleckner <lokua@lokua.net>",
   "license": "MIT",
   "dependencies": {
@@ -38,6 +41,7 @@
     "unicode": "^0.6.1"
   },
   "devDependencies": {
+    "execa": "^0.4.0",
     "rimraf-promise": "^2.0.0"
   }
 }
