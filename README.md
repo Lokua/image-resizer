@@ -2,6 +2,7 @@
 
 > Create multiple sized variants of images for use with the HTML5 `srcset`
   attribute.
+
 [![Build Status](https://travis-ci.org/Lokua/process-images.svg?branch=master)](https://travis-ci.org/Lokua/process-images)
 
 ## Install
@@ -21,7 +22,7 @@ to a list of widths provided (height is automatically determined by
 aspect ratio). The program is available for both programmatic and command line
 usage.
 
-# API
+## API
 
 At the very least `process-images` requires `input`, `output`, and `sizes`
 arguments. Each output file will have `__<size>` appened to the name, so
